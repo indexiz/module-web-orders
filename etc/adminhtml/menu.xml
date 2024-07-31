@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Indexiz_WebOrders::weborders"
+             title="Web Orders"
+             translate="title"
+             module="Indexiz_WebOrders"
+             sortOrder="16"
+             parent="Indexiz_Base::indexiz"
+             action="weborders/index/index"
+             resource="Indexiz_WebOrders::weborders"/>
+    </menu>
+</config>

@@ -1,0 +1,28 @@
+{
+    "name": "indexiz/module-web-orders",
+    "description": "Indexiz web orders module is helpful to only show Magento Store orders when your orders are coming from different platforms like Amazon, Walmart, eBay as well as Magento.",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Support",
+            "email": "mujtabam2dev@gmail.com",
+            "homepage": "https://indexiz.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Indexiz\\WebOrders\\": ""
+        }
+    }
+}
