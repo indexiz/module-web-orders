@@ -1,6 +1,6 @@
 {
     "name": "indexiz/module-web-orders",
-    "description": "",
+    "description": "Indexiz Web Orders module",
     "require": {
         "php": ">=7.1.0",
         "indexiz/module-base": ">=1.0.0"
