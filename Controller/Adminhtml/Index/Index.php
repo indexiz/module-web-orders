@@ -33,6 +33,7 @@ class Index extends Action
     public function execute()
     {
         $resultPage = $this->resultPageFactory->create();
+        $this->_setActiveMenu('Indexiz_Base::indexiz');
         $resultPage->getConfig()->getTitle()->prepend((__('Web Orders')));
         return $resultPage;
     }
